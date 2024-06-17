@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+#temporizador {
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.alerta {
+    animation: parpadear 1s infinite;
+}
+
+@keyframes parpadear {
+    0% { background-color: red; }
+    50% { background-color: white; }
+    100% { background-color: red; }
+}
