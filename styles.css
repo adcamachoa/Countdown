@@ -13,12 +13,59 @@ body {
     text-align: center;
 }
 
+#inputs {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Alinear los elementos verticalmente */
+}
+
+#inputs input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em; /* Tamaño más pequeño para los valores guía dentro de las casillas */
+    width: 100px;
+}
+
+#inputs #nombre {
+    width: 200px;
+}
+
+#temporizadorContainer {
+    margin-bottom: 20px;
+}
+
 #temporizador {
-    font-size: 4em;
+    font-size: 25em; /* Aumentamos el tamaño del temporizador */
+    margin-bottom: 10px; /* Espacio inferior al temporizador */
+}
+
+#nombreTemporizador {
+    font-size: 7em; /* Aumentamos el tamaño del nombre del temporizador */
+}
+
+#buttons {
     margin-top: 20px;
 }
 
+#buttons button {
+    padding: 15px 30px; /* Aumentamos el padding de los botones */
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+#limpiar {
+    padding: 10px 20px; /* Ajustamos el padding del botón Limpiar */
+    font-size: 1em; /* Tamaño del botón Limpiar */
+    margin-left: 10px; /* Margen izquierdo para separar del último input */
+}
+
 .alerta {
+    background-color: red; /* Color de fondo rojo para alerta */
+    color: white; /* Color de texto blanco para alerta */
+}
+
+.parpadear {
     animation: parpadear 1s infinite;
 }
 

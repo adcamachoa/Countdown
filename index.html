@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +8,21 @@
 </head>
 <body>
     <div id="container">
-        <input type="text" id="nombre" placeholder="Nombre">
-        <input type="number" id="horas" placeholder="Horas">
-        <input type="number" id="minutos" placeholder="Minutos">
-        <input type="number" id="segundos" placeholder="Segundos">
-        <button id="iniciar">Iniciar</button>
-        <button id="detener">Detener</button>
-        <button id="reiniciar">Reiniciar</button>
-        <button id="limpiar">Limpiar</button>
-        <div id="temporizador">00:00:00</div>
+        <div id="inputs">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="number" id="minutos" placeholder="Minutos">
+            <input type="number" id="segundos" placeholder="Segundos">
+            <button id="limpiar">Limpiar</button>
+        </div>
+        <div id="temporizadorContainer">
+            <div id="nombreTemporizador">Evento</div>
+            <div id="temporizador">00:00</div>
+        </div>
+        <div id="buttons">
+            <button id="iniciar">Iniciar</button>
+            <button id="detener">Detener</button>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
