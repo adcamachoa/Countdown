@@ -36,12 +36,12 @@ body {
 }
 
 #temporizador {
-    font-size: 25em; /* Aumentamos el tamaño del temporizador */
+    font-size: 30em; /* Aumentamos el tamaño del temporizador */
     margin-bottom: 10px; /* Espacio inferior al temporizador */
 }
 
 #nombreTemporizador {
-    font-size: 7em; /* Aumentamos el tamaño del nombre del temporizador */
+    font-size: 6em; /* Aumentamos el tamaño del nombre del temporizador */
 }
 
 #buttons {
